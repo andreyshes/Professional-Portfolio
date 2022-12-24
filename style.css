@@ -209,9 +209,7 @@
 }
 
 @media screen and (max-width:1452px) {
-  .navBar {
-    background-color: aqua;
-  }
+  
 
   .card {
     display: flex;
@@ -232,9 +230,7 @@
 }
 
 @media screen and (max-width:60em) {
-  .navBar {
-    background-color: yellow;
-  }
+
 
   .contact {
     position: absolute;
@@ -249,7 +245,7 @@
 
 @media screen and (max-width:46.8em) {
   .navBar {
-    background-color: orange;
+    
     flex-direction: column;
   }
 
