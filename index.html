@@ -1,116 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="normalize.css" />
+		<title>Professional Portfolio</title>
+	</head>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
-    <title>Professional Portfolio</title>
-  </head>
+	<body style="height: 100%">
+		<header>
+			<nav class="navBar">
+				<div class="myName">
+					<h2>Andrey Shestopal</h2>
+				</div>
+				<ul>
+					<li>
+						<a href="#about">About Me</a>
+					</li>
+					<li>
+						<a href="#work">Work</a>
+					</li>
 
-  <body style="height: 100%;">
-    <header>
-      <nav class="navBar">
-        <div class="myName">
-          <h2>
-            Andrey Shestopal
-          </h2>
-        </div>
-        <ul>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
+					<li>
+						<a href="#contact">Contact Me</a>
+					</li>
+					<li>
+						<a href="#">Resume</a>
+					</li>
+				</ul>
+			</nav>
+			<section class="sectionImg">
+				<div class="subtitle">
+					<h2>Keep Scrolling</h2>
+				</div>
+			</section>
+		</header>
 
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-          <li>
-            <a href="#">Resume</a>
-          </li>
-        </ul>
+		<div class="container" style="padding: 16px">
+			<main>
+				<section class="portfolio-section" id="about4">
+					<div class="portfolio-title-section">
+						<h2>About Me</h2>
+					</div>
 
-      </nav>
-      <section class="sectionImg">
-        <div class="subtitle">
-          <h2>Keep Scrolling</h2>
-        </div>
-      </section>
+					<div style="flex: 1" class="black-border">
+						<p>
+							Hello there, my name is Andrey Shestopal and I'm an aspiring full
+							stack software engineer. I myself grew up in a what would be
+							considered a big family of 9 siblibgs. I enjoy working with code,
+							creating applications as well as tackling everyday problems.
+							Besides coding I enjoy outdoor activites such as snowboarding,
+							hiking, skydiving, and traveling. Before I got into this career
+							path I worked construction for 4 years and decided that wasn't the
+							route I wanted to pursue, in which I found a new passion for
+							programming.
+						</p>
+					</div>
+				</section>
 
-    </header>
+				<section class="portfolio-section divider" id="work">
+					<div class="portfolio-title-section">
+						<h2>Work</h2>
+					</div>
 
-    <div class="container" style="padding: 16px">
-      <main>
-        <section class="portfolio-section">
-          <div class="portfolio-title-section">
-            <h2>About Me</h2>
-          </div>
+					<div class="image-section black-border">
+						<div
+							style="flex: 1; width: 100%; margin-bottom: 8px"
+							class="image-border"
+						>
+							<img
+								src="./images/meeting-2284501__340.jpg"
+								alt="business meeting"
+								style="width: 100%; height: 100%"
+							/>
+							<a href="https://kylekryst.github.io/Screen-Scoop/">
+								<h2 class="cardText">Business</h2></a
+							>
+						</div>
 
-          <div style="flex: 1;" class="black-border">
-            <p>
-              Hello there, my name is Andrey Shestopal and I'm an aspiring full stack software engineer. I myself
-              grew up in a what would be considered a big family of 9 siblibgs. I enjoy working with code,
-              creating applications as well as tackling everyday problems. Besides coding I enjoy
-              outdoor activites such as snowboarding, hiking, skydiving, and traveling. Before I got into this
-              career path I worked construction for 4 years and decided that wasn't the route I wanted to pursue,
-              in which I found a new passion for programming.
-            </p>
-          </div>
-        </section>
+						<div style="display: flex; flex: 3; gap: 4px; flex-wrap: wrap">
+							<div class="image-border smaller-image-container">
+								<img
+									src="./images/hacker-2883632__340.jpg"
+									alt="hacker"
+									class="smaller-image"
+								/>
+								<h2 class="cardText">Hacker</h2>
+							</div>
+							<div class="image-border smaller-image-container">
+								<img
+									src="./images/laptop-1839876__340.jpg"
+									alt="laptop"
+									class="smaller-image"
+								/>
+								<h2 class="cardText">Code</h2>
+							</div>
+							<div class="image-border smaller-image-container">
+								<img
+									src="./images/server-2160321__340.jpg"
+									alt="server room"
+									class="smaller-image"
+								/>
+								<h2 class="cardText">Servers</h2>
+							</div>
+							<div class="image-border smaller-image-container">
+								<img src="./images/stock-1863880__340.jpg" alt="stock market" />
+								<h2 class="cardText">Stocks</h2>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
 
-        <section class="portfolio-section divider">
-          <div class="portfolio-title-section">
-            <h2>Work</h2>
-          </div>
+			<footer class="portfolio-section" id="contact">
+				<div class="portfolio-title-section">
+					<h2 style="white-space: nowrap">Contact Me</h2>
+				</div>
 
-          <div class="image-section black-border">
-            <div style="flex: 1; width: 100%;margin-bottom: 8px" class="image-border">
-              <img src="./images/meeting-2284501__340.jpg" alt="business meeting" style="width: 100%; height: 100%;">
-              <h2 class="cardText">Business</h2>
-            </div>
-
-            <div style="display: flex; flex: 3; gap: 4px; flex-wrap: wrap;">
-              <div class="image-border smaller-image-container">
-                <img src="./images/hacker-2883632__340.jpg" alt="hacker" class="smaller-image">
-                <h2 class="cardText">Hacker</h2>
-              </div>
-              <div class="image-border smaller-image-container">
-                <img src="./images/laptop-1839876__340.jpg" alt="laptop" class="smaller-image">
-                <h2 class="cardText">Code</h2>
-              </div>
-              <div class="image-border smaller-image-container">
-                <img src="./images/server-2160321__340.jpg" alt="server room" class="smaller-image">
-                <h2 class="cardText">Servers</h2>
-              </div>
-              <div class="image-border smaller-image-container">
-                <img src="./images/stock-1863880__340.jpg" alt="stock market">
-                <h2 class="cardText">Stocks</h2>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="portfolio-section">
-        <div class="portfolio-title-section">
-          <h2 style="white-space: nowrap;">Contact Me</h2>
-        </div>
-
-        <div style="flex: 1; width: 100%;" class="black-border">
-          <ul class="footer-list">
-            <li class="links">(916) 508-6272</li>
-            <li class="links">ashesto121@gmail.com</li>
-            <li class="links">GitHub</li>
-            <li class="links">Instagram</li>
-            <li class="links">LinkedIn</li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-  </body>
-
+				<div style="flex: 1; width: 100%" class="black-border">
+					<ul class="footer-list">
+						<li class="links">(916) 508-6272</li>
+						<li class="links">ashesto121@gmail.com</li>
+						<li class="links">GitHub</li>
+						<li class="links">Instagram</li>
+						<li class="links">LinkedIn</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
